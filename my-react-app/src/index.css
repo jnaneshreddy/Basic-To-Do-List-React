@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  letter-spacing: 1px;
+  background-color: black;
+}
+.contnair{
+
+  width: 100%;
+  max-width: 1200px;
+  margin:3rem auto;
+  text-align: center;
+ 
+
+
+}
+.each{
+
+  border: 1px solid black;
+}
+@media screen and (min-width:992px) {
+  .contnair{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    gap: 1.5rem;
+  }
+  
+}
+p{
+  color: aliceblue;
+}
